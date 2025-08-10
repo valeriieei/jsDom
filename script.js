@@ -64,7 +64,7 @@ function changeDialogue() {
     astronautMessages[getRandomInt(0, astronautMessages.length - 1)];
   dialogueBox.textContent = randomLine;
 
-  // change after 5–7 seconds
+  // change after 5 seconds
   const delay = setTimeout(changeDialogue, 5000);
 }
 
